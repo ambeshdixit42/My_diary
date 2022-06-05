@@ -7,10 +7,11 @@
     android:id="@+id/rowLayout"
     android:padding = "24sp">
 
+
     <TextView
         android:id="@+id/date_txt"
-        android:layout_width="272dp"
-        android:layout_height="40dp"
+        android:layout_width="279dp"
+        android:layout_height="48dp"
         android:fontFamily="monospace"
         android:scrollbars="vertical"
         android:text="TextView"
@@ -18,23 +19,25 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.434"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.195" />
+        app:layout_constraintVertical_bias="0.537" />
 
     <TextView
         android:id="@+id/content_txt"
-        android:layout_width="286dp"
-        android:layout_height="218dp"
-        android:layout_marginStart="40dp"
+        android:layout_width="281dp"
+        android:layout_height="43dp"
         android:layout_marginTop="4dp"
         android:fontFamily="monospace"
         android:scrollbars="vertical"
         android:text="TextView"
         android:textColor="#FB6536"
         android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/date_txt" />
+        app:layout_constraintTop_toBottomOf="@+id/date_txt"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
