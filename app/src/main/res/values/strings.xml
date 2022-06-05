@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My diary</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string name="ADD">+</string>
+    <string name="date">DATE :</string>
+    <string name="save">SAVE</string>
+    <string name="enter_a_date">ENTER A DATE</string>
+    <string name="just_live_it">JUST LIVE IT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="your_text_here">your text here</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">Delete</string>
+    <string name="entries">Entries</string>
+    <string name="click_on_the_entry_to_edit_it">Click on the entry to edit it.</string>
+</resources>
